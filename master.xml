@@ -29,15 +29,17 @@ Your sources have been sync'd successfully.
   <project path="src/overlays"
            name="coreos/board-overlays"
            groups="minilayout" />
-  <project path="src/scripts" name="coreos/scripts"
-           groups="minilayout" />
+  <project path="src/scripts" name="higebu/scripts"
+           groups="minilayout"
+           remote="private" revision="niftycloud" />
 
   <project path="src/third_party/portage-stable"
            name="coreos/portage-stable"
            groups="minilayout" />
   <project path="src/third_party/coreos-overlay"
-           name="coreos/coreos-overlay"
-           groups="minilayout" />
+           name="higebu/coreos-overlay"
+           groups="minilayout"
+           remote="private" revision="niftycloud" />
 
   <project path="src/third_party/dbus-c++"
            name="coreos/dbus-cplusplus"
