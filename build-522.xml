@@ -20,7 +20,7 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="f10d6e8bef27ed53044ae9762694020fd8fbb5e5" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="9780b845c1ab454754182f7adb24f38e5178d3a8" upstream="refs/heads/build-522"/>
+  <project groups="minilayout" name="higebu/coreos-overlay" path="src/third_party/coreos-overlay" remote="private" revision="niftycloud-52210" upstream="refs/heads/build-522"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="282a1b444c7d61247efdd173bcb7050622e44812" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="15dfb80441ae5599acb410af221180ba443639e0" upstream="refs/heads/master"/>
@@ -35,7 +35,7 @@
   <project groups="minilayout" name="coreos/locksmith" path="src/third_party/locksmith" revision="2b2daadb28ea2eef5e4e0e342c77bd87df5318e0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="c52774899fee56123f1663d27c00c215f03e98af" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="bfd3747f60a680195e8619ca43901430540cc52a" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="higebu/scripts" path="src/scripts" remote="private" revision="niftycloud-52210" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="28df3404ef84f1f4fe75ef76aa525fad9d93ec83" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="94a4e74aca054b526f121c9cca930f0413fc9582" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="1866f2af0fe8c8a642679f0a41941158a4896738" upstream="refs/heads/master"/>
